@@ -2,10 +2,9 @@
 
 The Monty Hall problem is a brain teaser, in the form of a probability puzzle, loosely based on the American television game show Let's Make a Deal and named after its original host, Monty Hall. 
 
-# The Game/ Problem:
-```
+# The Game/Problem:
+
 In search of a new car, the player picks a door, say 1. The game host then opens one of the other doors, say 3, to reveal a goat and offers to let the player switch from door 1 to door 2.
-```
 
 ![Monty Hall Problem Graphic](Monty_open_door.svg.png) ~[Image Source: Wiki]
 
@@ -52,3 +51,8 @@ By sticking with your initial choice, you have a 1/n chance of winning.
 By switching doors, you effectively bet that your initial choice was wrong, so you have a (n-1)/n chance of winning.
 
 As 'n' increases, the advantage of switching becomes more pronounced. When 'n' is small, like in the original Monty Hall problem with 3 doors, the difference between the probabilities of winning by sticking and switching may not seem significant. However, as 'n' grows larger, the probability of winning by switching approaches 1, while the probability of winning by sticking approaches 1/n, which becomes negligible. Therefore, for a large number of doors, it's almost always better to switch.
+
+# References
+
+- https://www.youtube.com/watch?v=-DqKSUSHwjc - Solving the Monty Hall Problem with Python!
+- https://www.youtube.com/watch?v=7ljdcjRjGDg&t=102s - Monty Hall Simulation
