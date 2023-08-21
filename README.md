@@ -52,6 +52,23 @@ By switching doors, you effectively bet that your initial choice was wrong, so y
 
 As 'n' increases, the advantage of switching becomes more pronounced. When 'n' is small, like in the original Monty Hall problem with 3 doors, the difference between the probabilities of winning by sticking and switching may not seem significant. However, as 'n' grows larger, the probability of winning by switching approaches 1, while the probability of winning by sticking approaches 1/n, which becomes negligible. Therefore, for a large number of doors, it's almost always better to switch.
 
+# A simple p5.js implementation of Monty Hall's Game
+
+![Monty Hall Game](image.png)
+
+Data is persisted in Local Storage as well.
+![Monty Hall Game - Local Storage](image-1.png)
+
+# Bayes' Theorem
+
+Bayes' Theorem is a fundamental formula in probability theory and statistics that allows you to update the probability of an event based on new evidence or information. The formula is as follows:
+
+
+$$P(A|B) = \frac{P(B|A) \cdot P(A)}{P(B)}$$
+
+
+Bayes' Theorem tells us how to update our belief in the probability of event A happening (the posterior probability) based on new evidence provided by event B. It does this by considering the prior probability of event A (our initial belief), the likelihood of observing event B given that event A is true, and the overall probability of event B.
+
 # References
 
 - https://www.youtube.com/watch?v=-DqKSUSHwjc - Solving the Monty Hall Problem with Python!

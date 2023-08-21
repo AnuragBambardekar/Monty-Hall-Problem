@@ -1,0 +1,28 @@
+html, body {
+    background-color: #FFF;
+}
+
+p {
+    font-size: 32pt;
+    margin: 10px;
+}
+
+#doors {
+    display: flex;
+}
+
+button {
+    font-size: 32pt;
+    margin: 10px;
+}
+
+.door {
+    width: 100px;
+    height: 100px;
+    background-color: #AAA;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 32pt;
+    margin: 10px;
+}
